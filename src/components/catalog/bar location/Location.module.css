@@ -1,0 +1,41 @@
+.section {
+    min-height: 250px;
+}
+
+.map {
+    width: 100%;
+    filter: grayscale(100%) invert(100%);
+}
+
+@media (min-width: 425px) {
+    .section {
+        min-height: 293px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .section {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section {
+        min-height: 500px;
+    }
+
+    .map {
+        min-height: 500px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .section {
+        min-height: 600px;
+    }
+
+    .map {
+        min-height: 600px;
+    }
+}

@@ -1,0 +1,124 @@
+.California {
+    background-image: url('../../../../public/img/california-mobile.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(9, 9, 10, 1);
+}
+
+@media (min-resolution: 2dppx) {
+    .California {
+        background-image: url('../../../../public/img/california-mobile-2x.jpg');
+        object-fit: cover;
+        background-size: 100%;
+    }
+}
+
+.p {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.logo {
+    max-width: 320px;
+    width: auto;
+}
+
+.pink {
+    color: rgba(214, 37, 143, 1);
+}
+
+.div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 425px) {
+    .California {
+        min-height: 425px;
+    }
+}
+
+@media (min-width: 768px) {
+    .California {
+        background-image: url('../../../../public/img/california-tablet.jpg');
+        display: block;
+    }
+
+    .div {
+        min-height: 450px;
+        text-align: center;
+        width: 50%;
+        background-image: linear-gradient(141.38deg, rgba(0, 0, 0, 0.37) 0.62%, rgba(41, 38, 41, 0.01) 100%);
+        backdrop-filter: blur(10px);
+    }
+
+    .logo {
+        margin-top: 84px;
+        max-width: 492px;
+    }
+
+    .p {
+        font-size: 36px;
+        line-height: 42px;
+        width: 364px;
+        text-align: left;
+    }
+
+    @media (min-resolution: 2dppx) {
+        .California {
+            background-image: url('../../../../public/img/california-tablet-2x.jpg');
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .div {
+        min-height: 550px;
+    }
+
+    .p {
+        font-size: 40px;
+        line-height: 47px;
+        width: 430px;
+    }
+
+    .logo {
+        margin-top: 101px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .California {
+        background-image: url('../../../../public/img/california-desktop.jpg');
+        min-height: 750px;
+    }
+
+    .div {
+        min-height: 750px;
+    }
+
+    .logo {
+        margin-top: 45%;
+    }
+
+    @media (min-resolution: 2dppx) {
+        .California {
+            background-image: url('../../../../public/img/california-desktop-2x.jpg');
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .div {
+        min-height: 980px;
+    }
+}

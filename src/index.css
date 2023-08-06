@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Lumberjack";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/lumberjack.regular.woff2") format("woff2");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Conserned";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2");
+
+  font-display: swap;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lumberjack' , 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: rgba(9, 9, 10, 1)
+}
